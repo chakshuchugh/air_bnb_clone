@@ -1,0 +1,45 @@
+.header_icon{
+    height:100px;
+    width:140px;
+    margin-left: 40px;
+    
+}
+.header{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    background-color: white;
+    top:0;
+    margin-top: 0%;
+    z-index: 100%;
+
+}
+.Header_center{
+    align-items: center;
+    display:flex;
+    flex:1;
+    max-width: fit-content;
+    border:2px solid lightgrey;
+    border-radius: 900px;
+    padding:10px;
+    
+    
+}
+
+.Header_right{
+    align-items: center;
+    display:flex;
+    
+    margin-right: 20px;
+}
+
+.Header_right > p{
+    margin-right: 10px;
+}
+ 
+.Header_center>input{
+    border:none;
+    width:250px;
+    outline-width: 0;
+}
